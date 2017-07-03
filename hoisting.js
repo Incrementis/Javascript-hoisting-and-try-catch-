@@ -5,7 +5,7 @@
 */
 
 
-//Initilizing random number between 10 and 1000 when page is load
+//Initilizing random number between 10 and 1000 when page is loaded
 var genNumber  = (Math.random() * 1000) + 10;
 var result = document.getElementById('result');
 var countError = 0;
